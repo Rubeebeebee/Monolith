@@ -1,27 +1,11 @@
-# SPDX-FileCopyrightText: 2023 Alexander Evgrashin
-# SPDX-FileCopyrightText: 2023 Cheackraze
-# SPDX-FileCopyrightText: 2023 Vera Aguilera Puerto
-# SPDX-FileCopyrightText: 2023 terezi4real
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2025 Alice "Arimah" Heurlin
-# SPDX-FileCopyrightText: 2025 Checkraze
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 RikuTheKiller
-# SPDX-FileCopyrightText: 2025 Rubeebee
-# SPDX-FileCopyrightText: 2025 kyres1
-# SPDX-FileCopyrightText: 2025 pathetic meowmeow
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Grid
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 07/16/2025 06:48:37
-  entityCount: 756
+  time: 07/18/2025 01:30:09
+  entityCount: 764
 maps: []
 grids:
 - 1
@@ -450,7 +434,7 @@ entities:
       pos: 2.5,-13.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -8351.143
+      secondsUntilStateChange: -8451.379
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -2706,6 +2690,41 @@ entities:
     - type: Transform
       pos: -4.5,0.5
       parent: 1
+  - uid: 757
+    components:
+    - type: Transform
+      pos: -3.5,-12.5
+      parent: 1
+  - uid: 758
+    components:
+    - type: Transform
+      pos: 0.5,-9.5
+      parent: 1
+  - uid: 759
+    components:
+    - type: Transform
+      pos: -4.5,0.5
+      parent: 1
+  - uid: 760
+    components:
+    - type: Transform
+      pos: -0.5,2.5
+      parent: 1
+  - uid: 761
+    components:
+    - type: Transform
+      pos: -6.5,-8.5
+      parent: 1
+  - uid: 762
+    components:
+    - type: Transform
+      pos: -6.5,-8.5
+      parent: 1
+  - uid: 763
+    components:
+    - type: Transform
+      pos: 4.5,-10.5
+      parent: 1
 - proto: FoodBoxDonkpocketTeriyaki
   entities:
   - uid: 432
@@ -3736,6 +3755,14 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 1.5,-13.5
+      parent: 1
+- proto: LockerWallMaterialsFuelWeldingFilled
+  entities:
+  - uid: 764
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -5.5,-13.5
       parent: 1
 - proto: LockerWallMedicalFilled
   entities:
