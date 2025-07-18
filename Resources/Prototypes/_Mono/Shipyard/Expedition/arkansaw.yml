@@ -20,6 +20,9 @@
   guidebookPage: Null
   class:
   - Expedition
+  - Science
+  - Mining
+  - Carrier
   engine:
   - Bananium
 
