@@ -16,10 +16,12 @@
   price: 57000 # its not more expensive because 2/3s of the ship is actively spaced.
   category: Medium
   group: Expedition
+  access: Mercenary
   shuttlePath: /Maps/_Mono/Shuttles/Expedition/twilightmk2.yml
   guidebookPage: null
   class:
   - Expedition
+  - Pursuit 
   engine:
   - Bananium
 
