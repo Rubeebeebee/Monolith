@@ -1,30 +1,11 @@
-# SPDX-FileCopyrightText: 2023 cynical24
-# SPDX-FileCopyrightText: 2024 Alice "Arimah" Heurlin
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 Mr. Samuel
-# SPDX-FileCopyrightText: 2024 Salvantrix
-# SPDX-FileCopyrightText: 2024 TsjipTsjip
-# SPDX-FileCopyrightText: 2024 Tych0
-# SPDX-FileCopyrightText: 2024 checkraze
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 Checkraze
-# SPDX-FileCopyrightText: 2025 Jakumba
-# SPDX-FileCopyrightText: 2025 LukeZurg22
-# SPDX-FileCopyrightText: 2025 Maxtone
-# SPDX-FileCopyrightText: 2025 RikuTheKiller
-# SPDX-FileCopyrightText: 2025 Rubeebee
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Grid
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 07/16/2025 07:29:26
-  entityCount: 479
+  time: 07/18/2025 02:49:55
+  entityCount: 481
 maps: []
 grids:
 - 1
@@ -162,22 +143,41 @@ entities:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerNe
           decals:
-            11: 2,5
+            40: 3,0
+            59: 2,5
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerNw
           decals:
-            10: -1,5
+            48: -1,0
+            56: -1,5
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerSe
           decals:
             8: 2,2
+            41: 3,-1
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerSw
           decals:
             9: -1,2
+            47: -1,-1
+        - node:
+            color: '#FFFFFFFF'
+            id: WoodTrimThinEndS
+          decals:
+            42: 1,-2
+        - node:
+            color: '#FFFFFFFF'
+            id: WoodTrimThinInnerSe
+          decals:
+            44: 1,-1
+        - node:
+            color: '#FFFFFFFF'
+            id: WoodTrimThinInnerSw
+          decals:
+            45: 1,-1
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineE
@@ -188,14 +188,19 @@ entities:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineN
           decals:
-            12: 0,5
-            13: 1,5
+            49: 0,0
+            50: 1,0
+            51: 2,0
+            57: 0,5
+            58: 1,5
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineS
           decals:
             6: 0,2
             7: 1,2
+            43: 2,-1
+            46: 0,-1
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineW
@@ -332,8 +337,6 @@ entities:
 - proto: ActionToggleLight
   entities:
   - uid: 8
-   
-    paused: true
     components:
     - type: Transform
       parent: 7
@@ -801,6 +804,11 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+  - uid: 318
+    components:
+    - type: Transform
+      pos: -3.407206,0.48506498
+      parent: 1
 - proto: BoxMagazine45_magnumFMJ
   entities:
   - uid: 31
@@ -1716,6 +1724,13 @@ entities:
     - type: Transform
       pos: 2.2077885,4.488779
       parent: 1
+- proto: DrinkShotGlass
+  entities:
+  - uid: 481
+    components:
+    - type: Transform
+      pos: 1.7168956,4.50069
+      parent: 1
 - proto: DrinkTequilaBottleFull
   entities:
   - uid: 234
@@ -1732,6 +1747,11 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+  - uid: 480
+    components:
+    - type: Transform
+      pos: 1.3575206,4.87569
+      parent: 1
 - proto: EvidenceMarkerTwo
   entities:
   - uid: 475
@@ -2460,13 +2480,6 @@ entities:
     components:
     - type: Transform
       pos: -0.5,0.5
-      parent: 1
-- proto: LampGold
-  entities:
-  - uid: 318
-    components:
-    - type: Transform
-      pos: 1.6313047,4.919417
       parent: 1
 - proto: LockerBoozeFilled
   entities:
