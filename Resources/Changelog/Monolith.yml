@@ -7844,3 +7844,33 @@ Entries:
   id: 890
   time: '2025-07-17T19:37:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1454
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        Added station beacons and a botany/kitchen/bar area to insurgency
+        hideout. Also expanded the asteroid east to make space for that.
+  id: 891
+  time: '2025-07-17T21:56:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1462
+- author: UltimateJester
+  changes:
+    - type: Tweak
+      message: Renames spesos to credits, it sounds cooler and it fits precious lore
+  id: 892
+  time: '2025-07-17T23:46:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1423
+- author: Scyron
+  changes:
+    - type: Tweak
+      message: buffed 7.62x39 damage to be higher then 5.56x45!
+  id: 893
+  time: '2025-07-18T00:43:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1466
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: The EG-4 has been tuned, increasing its damage output
+  id: 894
+  time: '2025-07-18T00:45:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1467
