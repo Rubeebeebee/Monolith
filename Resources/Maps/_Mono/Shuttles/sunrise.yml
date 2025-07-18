@@ -1,29 +1,10 @@
-# SPDX-FileCopyrightText: 2023 cynical24
-# SPDX-FileCopyrightText: 2024 Alice "Arimah" Heurlin
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 Mr. Samuel
-# SPDX-FileCopyrightText: 2024 Salvantrix
-# SPDX-FileCopyrightText: 2024 TsjipTsjip
-# SPDX-FileCopyrightText: 2024 Tych0
-# SPDX-FileCopyrightText: 2024 checkraze
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 Checkraze
-# SPDX-FileCopyrightText: 2025 Jakumba
-# SPDX-FileCopyrightText: 2025 LukeZurg22
-# SPDX-FileCopyrightText: 2025 Maxtone
-# SPDX-FileCopyrightText: 2025 RikuTheKiller
-# SPDX-FileCopyrightText: 2025 Rubeebee
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Grid
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 07/18/2025 02:49:55
+  time: 07/18/2025 19:34:27
   entityCount: 481
 maps: []
 grids:
@@ -817,6 +798,13 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
   - uid: 13
+    components:
+    - type: Transform
+      parent: 2
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 15
     components:
     - type: Transform
       parent: 2
@@ -2581,22 +2569,22 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 15
-          - 14
-          - 13
-          - 12
           - 11
-          - 10
-          - 9
-          - 7
-          - 6
-          - 5
-          - 4
-          - 3
-          - 16
-          - 17
-          - 18
+          - 12
+          - 13
+          - 14
+          - 15
           - 19
+          - 18
+          - 17
+          - 16
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 9
+          - 10
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -2673,15 +2661,6 @@ entities:
     - type: Transform
       pos: -0.60279846,-0.42052197
       parent: 1
-- proto: NFDetectivePDA
-  entities:
-  - uid: 15
-    components:
-    - type: Transform
-      parent: 2
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: NFHolopadShip
   entities:
   - uid: 332

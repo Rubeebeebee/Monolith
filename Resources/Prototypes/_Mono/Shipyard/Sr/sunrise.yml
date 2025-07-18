@@ -12,8 +12,8 @@
   id: Sunrise
   parent: BaseVessel
   name: RSS Sunrise
-  description: A private investigator's ship. Comes equiped with a suite of forensic tools for investigative work. Capable of subduing smugglers and CIV ships with it's EMP launchers, and running away from anything more dangerous. 
-  price: 49000
+  description: A private investigator's ship. Comes equiped with a suite of forensic tools for investigative work. Capable of subduing smugglers and CIV ships with it's EMP launchers, and running away from anything more dangerous.
+  price: 59000
   category: Small
   group: Sr
   access: Brig # Oddball, matches guard ID, specific enough to exclude cadets
