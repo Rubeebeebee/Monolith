@@ -21,7 +21,7 @@
   class:
   - Expedition
   - Science
-  - Mining
+  - Salvage
   engine:
   - Bananium
 
