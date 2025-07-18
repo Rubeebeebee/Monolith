@@ -16,6 +16,9 @@
 # GitHub: starch70
 # Discord: _starch_
 
+# new author info (i cant figure out how to change the info above because i used a template)
+# Github: Rubeebeebee
+# Discord: rubeebee
 # Shuttle Notes:
 #
 - type: vessel
@@ -43,7 +46,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Phaeron HES{1}'
+          mapNameTemplate: 'Phaeron CIV{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
