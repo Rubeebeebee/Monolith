@@ -7963,3 +7963,71 @@ Entries:
   id: 905
   time: '2025-07-18T20:08:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1478
+- author: starch70
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Polaris POI being able to recieve dead-drop notes, missing grav
+        gen, having same IFF color as Lancelot, and having an unnamed fax
+        machine.
+  id: 906
+  time: '2025-07-19T04:49:25.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1480
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Engine update. Report all new funky bugs.
+    - type: Tweak
+      message: Shuttles collision adjusted.
+    - type: Tweak
+      message: Removes Lag for real no really
+    - type: Tweak
+      message: Wizden exped lighting stuff.
+    - type: Tweak
+      message: Optimizations. Tons.
+  id: 907
+  time: '2025-07-19T05:23:17.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1441
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Rhymatine no longer has Radiation damage.
+  id: 908
+  time: '2025-07-19T06:13:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1481
+- author: starch70
+  changes:
+    - type: Add
+      message: Expeditions can now generate with weather.
+    - type: Tweak
+      message: Daylight can now generate on non-grasslands expeditions.
+  id: 909
+  time: '2025-07-19T06:18:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1482
+- author: Honestly101
+  changes:
+    - type: Add
+      message: Disposal bins added to Vulture
+    - type: Tweak
+      message: Better Vulture lounge area
+  id: 910
+  time: '2025-07-19T06:18:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1479
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Plant bags can once again be stored in bags. Gardeners can peddle their
+        produce on foot more.
+  id: 911
+  time: '2025-07-19T14:19:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1487
+- author: Rubeebeebee
+  changes:
+    - type: Tweak
+      message: >-
+        changed the description of the arkansaw to add a warning to non-cult
+        members. 
+  id: 912
+  time: '2025-07-19T17:46:21.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1490
