@@ -445,8 +445,7 @@ entities:
 - proto: ActionBibleSummon
   entities:
   - uid: 218
-    mapInit: true
-    paused: true
+    
     components:
     - type: Transform
       parent: 253
