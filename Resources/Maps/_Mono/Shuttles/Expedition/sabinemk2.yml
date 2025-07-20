@@ -1,29 +1,11 @@
-# SPDX-FileCopyrightText: 2023 Alexander Evgrashin
-# SPDX-FileCopyrightText: 2023 Banshee
-# SPDX-FileCopyrightText: 2023 Cheackraze
-# SPDX-FileCopyrightText: 2023 RealIHaveANameOfficial
-# SPDX-FileCopyrightText: 2024 Checkraze
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 Salvantrix
-# SPDX-FileCopyrightText: 2024 dustylens
-# SPDX-FileCopyrightText: 2025 Alkheemist
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 RikuTheKiller
-# SPDX-FileCopyrightText: 2025 Rubeebee
-# SPDX-FileCopyrightText: 2025 Whatstone
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Grid
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 07/18/2025 18:29:43
-  entityCount: 593
+  time: 07/20/2025 18:15:24
+  entityCount: 589
 maps: []
 grids:
 - 1
@@ -445,7 +427,7 @@ entities:
 - proto: ActionBibleSummon
   entities:
   - uid: 218
-    
+  
     components:
     - type: Transform
       parent: 253
@@ -566,11 +548,6 @@ entities:
       parent: 1
 - proto: AtmosFixBlockerMarker
   entities:
-  - uid: 210
-    components:
-    - type: Transform
-      pos: -7.5,-8.5
-      parent: 1
   - uid: 336
     components:
     - type: Transform
@@ -961,11 +938,6 @@ entities:
     - type: Transform
       pos: -6.5,-8.5
       parent: 1
-  - uid: 557
-    components:
-    - type: Transform
-      pos: -6.5,-9.5
-      parent: 1
   - uid: 558
     components:
     - type: Transform
@@ -1040,16 +1012,6 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-8.5
-      parent: 1
-  - uid: 573
-    components:
-    - type: Transform
-      pos: 5.5,-9.5
-      parent: 1
-  - uid: 574
-    components:
-    - type: Transform
-      pos: 6.5,-8.5
       parent: 1
   - uid: 575
     components:
@@ -3584,10 +3546,20 @@ entities:
     - type: Transform
       pos: 6.5,-3.5
       parent: 1
+  - uid: 113
+    components:
+    - type: Transform
+      pos: -6.5,-9.5
+      parent: 1
   - uid: 116
     components:
     - type: Transform
       pos: -3.5,-6.5
+      parent: 1
+  - uid: 121
+    components:
+    - type: Transform
+      pos: -7.5,-8.5
       parent: 1
   - uid: 124
     components:
@@ -3635,6 +3607,11 @@ entities:
     - type: Transform
       pos: 2.5,-2.5
       parent: 1
+  - uid: 143
+    components:
+    - type: Transform
+      pos: 5.5,-9.5
+      parent: 1
   - uid: 145
     components:
     - type: Transform
@@ -3662,6 +3639,11 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -2.5,-6.5
+      parent: 1
+  - uid: 210
+    components:
+    - type: Transform
+      pos: 6.5,-8.5
       parent: 1
   - uid: 226
     components:
@@ -3788,23 +3770,11 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 7.5,-2.5
       parent: 1
-  - uid: 113
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -7.5,-8.5
-      parent: 1
   - uid: 119
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 0.5,6.5
-      parent: 1
-  - uid: 121
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -6.5,-9.5
       parent: 1
   - uid: 122
     components:
@@ -3817,18 +3787,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -3.5,-8.5
-      parent: 1
-  - uid: 143
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,-9.5
-      parent: 1
-  - uid: 308
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 6.5,-8.5
       parent: 1
   - uid: 335
     components:
