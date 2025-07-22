@@ -4,8 +4,8 @@ meta:
   engineVersion: 260.2.0
   forkId: ""
   forkVersion: ""
-  time: 07/22/2025 06:42:44
-  entityCount: 985
+  time: 07/22/2025 13:29:47
+  entityCount: 987
 maps: []
 grids:
 - 1
@@ -1596,6 +1596,13 @@ entities:
     components:
     - type: Transform
       pos: 0.5,6.5
+      parent: 1
+- proto: BoxFolderClipboard
+  entities:
+  - uid: 134
+    components:
+    - type: Transform
+      pos: -2.137085,0.57628274
       parent: 1
 - proto: Bucket
   entities:
@@ -3577,6 +3584,13 @@ entities:
       parent: 218
     - type: Physics
       canCollide: False
+- proto: FaxMachineBase
+  entities:
+  - uid: 149
+    components:
+    - type: Transform
+      pos: -2.5,0.5
+      parent: 1
 - proto: Firelock
   entities:
   - uid: 12
@@ -3659,7 +3673,7 @@ entities:
   - uid: 184
     components:
     - type: Transform
-      pos: -2.4829226,0.578411
+      pos: -3.449585,1.0487354
       parent: 1
 - proto: GasMixerOn
   entities:
@@ -4943,12 +4957,19 @@ entities:
     - type: Transform
       pos: 5.0614395,-4.377181
       parent: 1
+- proto: NFHolopadShip
+  entities:
+  - uid: 986
+    components:
+    - type: Transform
+      pos: 0.5,-7.5
+      parent: 1
 - proto: NFPlushieEngineer
   entities:
   - uid: 984
     components:
     - type: Transform
-      pos: 5.566926,-5.5938663
+      pos: -5.5062075,-6.0434623
       parent: 1
 - proto: NitrogenCanister
   entities:
@@ -5045,19 +5066,12 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: PaperBin20
-  entities:
-  - uid: 867
-    components:
-    - type: Transform
-      pos: -2.5,0.5
-      parent: 1
 - proto: Pen
   entities:
-  - uid: 868
+  - uid: 987
     components:
     - type: Transform
-      pos: -2.7975788,0.6343038
+      pos: -2.93396,0.74815774
       parent: 1
 - proto: PlushieYarrMoth
   entities:
@@ -6234,6 +6248,11 @@ entities:
     - type: Transform
       pos: -6.5,5.5
       parent: 1
+  - uid: 151
+    components:
+    - type: Transform
+      pos: -2.5,10.5
+      parent: 1
   - uid: 152
     components:
     - type: Transform
@@ -6265,6 +6284,11 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 1.5,-11.5
+      parent: 1
+  - uid: 221
+    components:
+    - type: Transform
+      pos: 2.5,10.5
       parent: 1
   - uid: 228
     components:
@@ -6495,28 +6519,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -9.5,10.5
       parent: 1
-  - uid: 134
-    components:
-    - type: Transform
-      pos: -3.5,10.5
-      parent: 1
-  - uid: 149
-    components:
-    - type: Transform
-      pos: 2.5,10.5
-      parent: 1
-  - uid: 151
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -2.5,10.5
-      parent: 1
-  - uid: 221
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 3.5,10.5
-      parent: 1
   - uid: 859
     components:
     - type: Transform
@@ -6538,6 +6540,17 @@ entities:
     components:
     - type: Transform
       pos: -5.5,8.5
+      parent: 1
+  - uid: 867
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,10.5
+      parent: 1
+  - uid: 868
+    components:
+    - type: Transform
+      pos: -3.5,10.5
       parent: 1
 - proto: WallReinforced
   entities:
