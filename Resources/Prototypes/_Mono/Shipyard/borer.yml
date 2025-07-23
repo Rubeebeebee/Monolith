@@ -7,7 +7,7 @@
 - type: vessel
   id: Borer
   parent: BaseVessel
-  name: SHS-DI Borer
+  name: SHS-DIS Borer
   description: designed by SHM and produced in cooperation with DI, the borer is a cost effective ship for salvaging and derilect scrapping.
   price: 19000
   category: Small
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Borer
-  mapName: 'SHS-DI Borer'
+  mapName: 'SHS-DIS Borer'
   mapPath: /Maps/_Mono/Shuttles/borer.yml
   minPlayers: 0
   stations:
