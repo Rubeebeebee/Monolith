@@ -4,8 +4,8 @@ meta:
   engineVersion: 260.2.0
   forkId: ""
   forkVersion: ""
-  time: 07/24/2025 20:13:55
-  entityCount: 543
+  time: 07/24/2025 20:34:37
+  entityCount: 544
 maps: []
 grids:
 - 1
@@ -707,12 +707,12 @@ entities:
   - uid: 198
     components:
     - type: Transform
-      pos: 1.5940022,-0.99430084
+      pos: 1.546875,-1.1321971
       parent: 1
   - uid: 242
     components:
     - type: Transform
-      pos: 1.430176,-0.1754868
+      pos: 1.5625,0.05530286
       parent: 1
 - proto: APCBasic
   entities:
@@ -2860,6 +2860,13 @@ entities:
     components:
     - type: Transform
       pos: -0.5,3.5
+      parent: 1
+- proto: PlushieGnome
+  entities:
+  - uid: 32
+    components:
+    - type: Transform
+      pos: 7.6652346,-6.4581757
       parent: 1
 - proto: PortableGeneratorSuperPacmanShuttle
   entities:
