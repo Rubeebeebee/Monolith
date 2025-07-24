@@ -1,38 +1,11 @@
-# SPDX-FileCopyrightText: 2021 AJCM-git
-# SPDX-FileCopyrightText: 2021 Paul Ritter
-# SPDX-FileCopyrightText: 2021 wrexbe
-# SPDX-FileCopyrightText: 2022 20kdc
-# SPDX-FileCopyrightText: 2022 Kara
-# SPDX-FileCopyrightText: 2022 LittleBuilderJane
-# SPDX-FileCopyrightText: 2022 Peptide90
-# SPDX-FileCopyrightText: 2022 metalgearsloth
-# SPDX-FileCopyrightText: 2022 mirrorcult
-# SPDX-FileCopyrightText: 2023 Alexander Evgrashin
-# SPDX-FileCopyrightText: 2023 Cheackraze
-# SPDX-FileCopyrightText: 2023 Emisse
-# SPDX-FileCopyrightText: 2023 YumiGumi
-# SPDX-FileCopyrightText: 2023 crystalHex
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 Minty Moo
-# SPDX-FileCopyrightText: 2024 TsjipTsjip
-# SPDX-FileCopyrightText: 2024 dustylens
-# SPDX-FileCopyrightText: 2025 Alice "Arimah" Heurlin
-# SPDX-FileCopyrightText: 2025 Checkraze
-# SPDX-FileCopyrightText: 2025 Rubeebeebee
-# SPDX-FileCopyrightText: 2025 Whatstone
-# SPDX-FileCopyrightText: 2025 nathan736
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Grid
-  engineVersion: 260.2.0
+  engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/22/2025 13:29:47
-  entityCount: 987
+  time: 07/24/2025 21:03:34
+  entityCount: 977
 maps: []
 grids:
 - 1
@@ -3301,6 +3274,12 @@ entities:
           - 836
 - proto: ClosetWallO2Filled
   entities:
+  - uid: 23
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -1.5,-9.5
+      parent: 1
   - uid: 780
     components:
     - type: Transform
@@ -3319,6 +3298,12 @@ entities:
       parent: 1
 - proto: ClosetWallO2N2Filled
   entities:
+  - uid: 22
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 1.5,-9.5
+      parent: 1
   - uid: 783
     components:
     - type: Transform
@@ -4787,16 +4772,36 @@ entities:
     - type: Transform
       pos: 3.5,3.5
       parent: 1
+    - type: Lock
+      locked: False
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
     - type: ContainerContainer
       containers:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
           ents:
-          - 35
           - 36
-          - 37
           - 38
+          - 37
+          - 35
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -4900,32 +4905,6 @@ entities:
         - 0
         - 0
         - 0
-- proto: LockerWallEVAColorMercenaryFilled
-  entities:
-  - uid: 308
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-9.5
-      parent: 1
-  - uid: 309
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -1.5,-9.5
-      parent: 1
-  - uid: 310
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -1.5,-10.5
-      parent: 1
-  - uid: 311
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-10.5
-      parent: 1
 - proto: LockerWallMaterialsBasic10Filled
   entities:
   - uid: 307
@@ -5331,30 +5310,6 @@ entities:
       parent: 1
 - proto: SecBreachingHammer
   entities:
-  - uid: 28
-    components:
-    - type: Transform
-      parent: 27
-    - type: Physics
-      canCollide: False
-  - uid: 29
-    components:
-    - type: Transform
-      parent: 27
-    - type: Physics
-      canCollide: False
-  - uid: 30
-    components:
-    - type: Transform
-      parent: 27
-    - type: Physics
-      canCollide: False
-  - uid: 31
-    components:
-    - type: Transform
-      parent: 27
-    - type: Physics
-      canCollide: False
   - uid: 32
     components:
     - type: Transform
@@ -5530,23 +5485,23 @@ entities:
         weapon1: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 22
+          ent: 24
         weapon2: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 23
+          ent: null
         weapon3: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 24
+          ent: null
         weapon4: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 25
+          ent: null
         weapon5: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 26
+          ent: null
 - proto: StructureMeleeWeaponRackWallmountedMercenary
   entities:
   - uid: 27
@@ -5559,19 +5514,19 @@ entities:
         weapon1: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 28
+          ent: null
         weapon2: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 29
+          ent: null
         weapon3: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 30
+          ent: null
         weapon4: !type:ContainerSlot
           showEnts: False
           occludes: True
-          ent: 31
+          ent: null
         weapon5: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -7047,33 +7002,9 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -0.5,3.5
       parent: 1
-- proto: WeaponShotgunEnforcer
+- proto: WeaponShotgunKammerer
   entities:
-  - uid: 22
-    components:
-    - type: Transform
-      parent: 21
-    - type: Physics
-      canCollide: False
-  - uid: 23
-    components:
-    - type: Transform
-      parent: 21
-    - type: Physics
-      canCollide: False
   - uid: 24
-    components:
-    - type: Transform
-      parent: 21
-    - type: Physics
-      canCollide: False
-  - uid: 25
-    components:
-    - type: Transform
-      parent: 21
-    - type: Physics
-      canCollide: False
-  - uid: 26
     components:
     - type: Transform
       parent: 21
