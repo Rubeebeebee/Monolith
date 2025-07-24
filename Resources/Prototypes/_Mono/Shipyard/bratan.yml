@@ -41,7 +41,7 @@
   - Kitchen
   - Botany
   engine:
-  - Plasma
+  - AME
   - Solar
 
 - type: gameMap
