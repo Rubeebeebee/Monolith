@@ -1,13 +1,3 @@
-// SPDX-FileCopyrightText: 2023 metalgearsloth
-// SPDX-FileCopyrightText: 2024 DrSmugleaf
-// SPDX-FileCopyrightText: 2024 Ed
-// SPDX-FileCopyrightText: 2024 Leon Friedrich
-// SPDX-FileCopyrightText: 2025 Dvir
-// SPDX-FileCopyrightText: 2025 Redrover1760
-// SPDX-FileCopyrightText: 2025 Whatstone
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
 #nullable enable
 using Content.Shared.CCVar;
 using Robust.Shared;

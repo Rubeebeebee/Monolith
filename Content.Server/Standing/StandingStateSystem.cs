@@ -1,20 +1,3 @@
-// SPDX-FileCopyrightText: 2020 Remie Richards
-// SPDX-FileCopyrightText: 2021 Acruid
-// SPDX-FileCopyrightText: 2021 Clyybber
-// SPDX-FileCopyrightText: 2021 Vera Aguilera Puerto
-// SPDX-FileCopyrightText: 2021 mirrorcult
-// SPDX-FileCopyrightText: 2022 Leon Friedrich
-// SPDX-FileCopyrightText: 2022 Rane
-// SPDX-FileCopyrightText: 2023 DrSmugleaf
-// SPDX-FileCopyrightText: 2023 Visne
-// SPDX-FileCopyrightText: 2024 metalgearsloth
-// SPDX-FileCopyrightText: 2025 Ark
-// SPDX-FileCopyrightText: 2025 Redrover1760
-// SPDX-FileCopyrightText: 2025 TemporalOroboros
-// SPDX-FileCopyrightText: 2025 Whatstone
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
 using System.Numerics;
 using Content.Shared._NF.Standing;
 using Content.Shared.Hands.Components;
