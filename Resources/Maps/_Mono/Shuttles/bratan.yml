@@ -1,32 +1,10 @@
-# SPDX-FileCopyrightText: 2023 Cheackraze
-# SPDX-FileCopyrightText: 2023 Dawid Bla
-# SPDX-FileCopyrightText: 2023 IHAN <IHAN>
-# SPDX-FileCopyrightText: 2023 RealIHaveANameOfficial
-# SPDX-FileCopyrightText: 2023 deltanedas
-# SPDX-FileCopyrightText: 2023 deltanedas <@deltanedas:kde.org>
-# SPDX-FileCopyrightText: 2023 lzk
-# SPDX-FileCopyrightText: 2023 metalgearsloth
-# SPDX-FileCopyrightText: 2024 Alice "Arimah" Heurlin
-# SPDX-FileCopyrightText: 2024 AndresE55
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 Shroomerian
-# SPDX-FileCopyrightText: 2024 TsjipTsjip
-# SPDX-FileCopyrightText: 2024 Whatstone
-# SPDX-FileCopyrightText: 2024 chrome-cirrus
-# SPDX-FileCopyrightText: 2025 Checkraze
-# SPDX-FileCopyrightText: 2025 Rubeebee
-# SPDX-FileCopyrightText: 2025 Rubeebeebee
-# SPDX-FileCopyrightText: 2025 dustylens
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Grid
-  engineVersion: 260.2.0
+  engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/24/2025 19:59:56
+  time: 07/26/2025 19:09:24
   entityCount: 2388
 maps: []
 grids:
@@ -1604,55 +1582,46 @@ entities:
   - uid: 68
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 17.5,13.5
+      pos: 15.5,14.5
       parent: 1
   - uid: 1701
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 16.5,13.5
+      pos: 16.5,14.5
       parent: 1
   - uid: 1884
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 17.5,12.5
+      pos: 15.5,13.5
       parent: 1
   - uid: 1888
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 15.5,13.5
+      pos: 16.5,13.5
       parent: 1
   - uid: 2123
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 16.5,12.5
+      pos: 17.5,13.5
       parent: 1
   - uid: 2127
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 15.5,14.5
+      pos: 17.5,12.5
       parent: 1
   - uid: 2347
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 16.5,14.5
+      pos: 15.5,12.5
       parent: 1
   - uid: 2360
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 15.5,12.5
+      pos: 16.5,12.5
       parent: 1
   - uid: 2361
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: 17.5,14.5
       parent: 1
 - proto: AmmoBox12_gaugeBeanbag
@@ -16193,7 +16162,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -5415.3696
+      secondsUntilStateChange: -5495.6895
       state: Opening
     - type: Airlock
       autoClose: False
